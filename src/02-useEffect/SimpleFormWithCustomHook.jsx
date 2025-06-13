@@ -1,10 +1,8 @@
-import { Message } from "./Message.jsx";
 import { useForm } from "../hooks/useForm.js";
 
 export const SimpleFormWithCustomHook = () => {
 
     const {
-        formState,
         username,
         email,
         password,
@@ -55,4 +53,5 @@ export const SimpleFormWithCustomHook = () => {
 
         </>
     );
+
 }
