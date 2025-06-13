@@ -1,4 +1,4 @@
-import {useEffect, useState} from 'react';
+import { useEffect, useState } from 'react';
 
 export const useFetch = (url) => {
 
@@ -8,8 +8,6 @@ export const useFetch = (url) => {
         hasError: false,
         error: null,
     })
-
-    console.log(url)
 
     useEffect(() => {
         fetchData();
@@ -42,6 +40,7 @@ export const useFetch = (url) => {
             return;
         }
 
+
         const data = await response.json();
         setState({
             data: data,
@@ -49,7 +48,6 @@ export const useFetch = (url) => {
             hasError: false,
             error: null,
         });
-
 
         //manejo del cache
         console.log(data);

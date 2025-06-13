@@ -1,5 +1,5 @@
-import {Message} from "./Message.jsx";
-import {useForm} from "../hooks/useForm.js";
+import { Message } from "./Message.jsx";
+import { useForm } from "../hooks/useForm.js";
 
 export const SimpleFormWithCustomHook = () => {
 

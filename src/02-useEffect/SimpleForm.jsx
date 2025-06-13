@@ -1,5 +1,5 @@
-import {useEffect, useState} from "react";
-import {Message} from "./Message.jsx";
+import { useEffect, useState } from "react";
+import { Message } from "./Message.jsx";
 
 export const SimpleForm = () => {
 
@@ -8,10 +8,10 @@ export const SimpleForm = () => {
         email: "jsantamv@live.com",
     })
 
-    const {username, email} = formState;
+    const { username, email } = formState;
 
-    const onInputChange = ({target}) => {
-        const {name, value} = target;
+    const onInputChange = ({ target }) => {
+        const { name, value } = target;
         setFormState({
             ...formState,
             [name]: value, /*Propiedad computada de JS donde Name hace del nombre del name del elemento html*/

@@ -1,10 +1,10 @@
 import React from "react";
-import {useFetch, useCounter} from "../hooks";
+import { useFetch, useCounter } from "../hooks";
 
 export const MultipleCustomHooks = () => {
 
-    const {counter, increment, decrement} = useCounter(1)
-    const {data, isLoading} = useFetch(`https://pokeapi.co/api/v2/pokemon/${counter}`)
+    const { counter, increment, decrement } = useCounter(1)
+    const { data, isLoading } = useFetch(`https://pokeapi.co/api/v2/pokemon/${counter}`)
 
 
     return (

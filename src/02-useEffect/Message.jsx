@@ -1,4 +1,4 @@
-import {useEffect, useState} from "react";
+import { useEffect, useState } from "react";
 
 export const Message = () => {
 
@@ -9,8 +9,8 @@ export const Message = () => {
     useEffect(() => {
 
         /*funcion a controlar*/
-        const onMouseMove = ({x, y}) => {
-            setCoords({x, y})
+        const onMouseMove = ({ x, y }) => {
+            setCoords({ x, y })
         }
 
         window.addEventListener('mousemove', onMouseMove);
