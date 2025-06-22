@@ -1,8 +1,19 @@
+import { useLayoutEffect, useRef } from 'react';
 
 export const PokemonCard = ({ id, name, sprites = [] }) => {
+
+    const h2Ref = useRef(null);
+
+    useLayoutEffect(() => {
+        const { height,width } = h2Ref.current.getBoundingClientRect();
+        console.log('useLayoutEffect', { height, width });
+    }, [name]);
+
     return (
-        <section style={{ height: '100%' }}>
-            <h2 className="text-capitalize">
+        <section style={{ height: '200', display: 'flex', flexDirection: 'row' }}>
+            <h2
+                ref={h2Ref}
+                className="text-capitalize">
                 <span className="badge bg-primary me-2">{id}</span>
                 <span className={`badge bg-danger`}>  {name}</span>
             </h2>
