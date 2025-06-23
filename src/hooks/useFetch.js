@@ -2,8 +2,6 @@ import {useEffect, useState} from 'react';
 
 const localCache = {}
 
-
-
 export const useFetch = (url) => {
 
     const [state, setState] = useState({
@@ -30,6 +28,7 @@ export const useFetch = (url) => {
 
         //await new Promise(resolve => setTimeout(resolve, 2000))
 
+        //handle caching
         if (localCache[url]) {
             console.log('Using cached data for:', url);
             setState({
