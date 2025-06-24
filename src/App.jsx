@@ -4,7 +4,8 @@
 // import {MultipleCustomHooks} from "./03-examples-hooks/MultipleCustomHooks.jsx";
 // import { FocusScreen } from './04-useRef/FocusScreen.jsx';
 // import { Layout } from './05-useLayoutEffect/Layout.jsx';
-import { Memorize } from './06-Memo/Memorize.jsx';
+// import { Memorize } from './06-Memo/Memorize.jsx';
+import { MemoHook } from './06-Memo/MemoHook.jsx';
 
 function App() {
 
@@ -12,7 +13,7 @@ function App() {
     return (
         <>
 
-            <Memorize/>
+            <MemoHook/>
 
         </>
     )
