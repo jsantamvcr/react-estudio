@@ -5,7 +5,9 @@
 // import { FocusScreen } from './04-useRef/FocusScreen.jsx';
 // import { Layout } from './05-useLayoutEffect/Layout.jsx';
 // import { Memorize } from './06-Memo/Memorize.jsx';
-import { MemoHook } from './06-Memo/MemoHook.jsx';
+// import { MemoHook } from './06-Memo/MemoHook.jsx';
+// import { CallbackHook } from './06-Memo/CallbackHook.jsx';
+import { Father } from './07-tarea-memo/Father.jsx';
 
 function App() {
 
@@ -13,7 +15,7 @@ function App() {
     return (
         <>
 
-            <MemoHook/>
+            <Father/>
 
         </>
     )
