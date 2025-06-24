@@ -12,7 +12,7 @@ export const Memorize = () => {
     return (
         <>
 
-            <h1>Counter: <Small value={counter}/></h1>
+            <h1>Counter: <Small value={counter} otherProp={123}/></h1>
 
             <button
                 className="btn btn-outline-primary"
