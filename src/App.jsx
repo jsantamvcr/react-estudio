@@ -7,16 +7,15 @@
 // import { Memorize } from './06-Memo/Memorize.jsx';
 // import { MemoHook } from './06-Memo/MemoHook.jsx';
 // import { CallbackHook } from './06-Memo/CallbackHook.jsx';
-import { Father } from './07-tarea-memo/Father.jsx';
+// import { Father } from './07-tarea-memo/Father.jsx';
+import { TodoApp } from './08-useReducer/TodoApp.jsx';
 
 function App() {
 
 
     return (
         <>
-
-            <Father/>
-
+            <TodoApp/>
         </>
     )
 }
