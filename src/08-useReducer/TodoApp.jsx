@@ -7,6 +7,8 @@ export const TodoApp = () => {
 
     const {
         todos,
+        todosCount,
+        pendingTodosCount,
         handleDeleteTodo,
         handleNewTodo,
         handleToggleTodo
@@ -14,7 +16,7 @@ export const TodoApp = () => {
 
     return (
         <>
-            <h1>Todos 10, <small>pending:8</small></h1>
+            <h1>Todos {todosCount}, <small>pending:{pendingTodosCount}</small></h1>
             <hr/>
 
             <div className="row">
