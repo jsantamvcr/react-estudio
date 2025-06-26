@@ -8,14 +8,15 @@
 // import { MemoHook } from './06-Memo/MemoHook.jsx';
 // import { CallbackHook } from './06-Memo/CallbackHook.jsx';
 // import { Father } from './07-tarea-memo/Father.jsx';
-import { TodoApp } from './08-useReducer/TodoApp.jsx';
+//import { TodoApp } from './08-useReducer/TodoApp.jsx';
+import { MainApp } from './09-useContext/MainApp.jsx';
 
 function App() {
 
 
     return (
         <>
-            <TodoApp/>
+            <MainApp/>
         </>
     )
 }
