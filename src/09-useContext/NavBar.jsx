@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink} from 'react-router-dom';
+import {Link, NavLink} from 'react-router-dom';
 
 export const NavBar = () => {
     return (// <>
@@ -10,7 +10,7 @@ export const NavBar = () => {
 
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
             <div className="container-fluid">
-                <a className="navbar-brand" href="#">Use Context</a>
+                <Link className="navbar-brand" to='/'>Use Context</Link>
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
                         <NavLink

@@ -17,6 +17,7 @@ export const MainApp = () => {
 
                 {/* Redirects no found*/}
                 {/*<Route path="/*" element={<LoginPage/>}/>*/}
+
                 {/*another way to redirect*/}
                 <Route path="/*" element={<Navigate to="/about"/>}/>
 
